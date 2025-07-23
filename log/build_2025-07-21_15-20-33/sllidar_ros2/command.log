@@ -1,0 +1,6 @@
+Invoking command in '/home/asu/ika_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/asu/ika_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/asu/ika_ws/install/sllidar_ros2
+Invoked command in '/home/asu/ika_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/asu/ika_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/asu/ika_ws/install/sllidar_ros2
+Invoking command in '/home/asu/ika_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asu/ika_ws/build/sllidar_ros2 -- -j12 -l12
+Invoked command in '/home/asu/ika_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asu/ika_ws/build/sllidar_ros2 -- -j12 -l12
+Invoking command in '/home/asu/ika_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/asu/ika_ws/build/sllidar_ros2
+Invoked command in '/home/asu/ika_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/asu/ika_ws/build/sllidar_ros2

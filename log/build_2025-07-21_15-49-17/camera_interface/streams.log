@@ -1,0 +1,30 @@
+[0.640s] Invoking command in '/home/asu/ika_ws/src/camera_interface': PYTHONPATH=/home/asu/ika_ws/build/camera_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_interface build --build-base /home/asu/ika_ws/build/camera_interface/build install --record /home/asu/ika_ws/build/camera_interface/install.log --single-version-externally-managed install_data
+[0.839s] running egg_info
+[0.840s] writing ../../build/camera_interface/camera_interface.egg-info/PKG-INFO
+[0.840s] writing dependency_links to ../../build/camera_interface/camera_interface.egg-info/dependency_links.txt
+[0.840s] writing entry points to ../../build/camera_interface/camera_interface.egg-info/entry_points.txt
+[0.840s] writing requirements to ../../build/camera_interface/camera_interface.egg-info/requires.txt
+[0.840s] writing top-level names to ../../build/camera_interface/camera_interface.egg-info/top_level.txt
+[0.841s] reading manifest file '../../build/camera_interface/camera_interface.egg-info/SOURCES.txt'
+[0.843s] writing manifest file '../../build/camera_interface/camera_interface.egg-info/SOURCES.txt'
+[0.843s] running build
+[0.843s] running build_py
+[0.843s] copying camera_interface/camera_node.py -> /home/asu/ika_ws/build/camera_interface/build/lib/camera_interface
+[0.843s] running install
+[0.844s] running install_lib
+[0.844s] copying /home/asu/ika_ws/build/camera_interface/build/lib/camera_interface/camera_node.py -> /home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages/camera_interface
+[0.845s] byte-compiling /home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages/camera_interface/camera_node.py to camera_node.cpython-310.pyc
+[0.845s] running install_data
+[0.846s]   File "/home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages/camera_interface/camera_node.py", line 132
+[0.846s]     px = int(center + x * (size / (max_range * 2))))
+[0.846s]                                                    ^
+[0.846s] SyntaxError: unmatched ')'
+[0.846s] 
+[0.846s] running install_egg_info
+[0.847s] removing '/home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages/camera_interface-0.0.0-py3.10.egg-info' (and everything under it)
+[0.847s] Copying ../../build/camera_interface/camera_interface.egg-info to /home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages/camera_interface-0.0.0-py3.10.egg-info
+[0.848s] running install_scripts
+[0.863s] Installing usb_cams script to /home/asu/ika_ws/install/camera_interface/lib/camera_interface
+[0.863s] Installing view script to /home/asu/ika_ws/install/camera_interface/lib/camera_interface
+[0.863s] writing list of installed files to '/home/asu/ika_ws/build/camera_interface/install.log'
+[0.879s] Invoked command in '/home/asu/ika_ws/src/camera_interface' returned '0': PYTHONPATH=/home/asu/ika_ws/build/camera_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_interface build --build-base /home/asu/ika_ws/build/camera_interface/build install --record /home/asu/ika_ws/build/camera_interface/install.log --single-version-externally-managed install_data

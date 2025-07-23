@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/camera_interface/camera_interface.egg-info
+writing ../../build/camera_interface/camera_interface.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_interface/camera_interface.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_interface/camera_interface.egg-info/entry_points.txt
+writing requirements to ../../build/camera_interface/camera_interface.egg-info/requires.txt
+writing top-level names to ../../build/camera_interface/camera_interface.egg-info/top_level.txt
+writing manifest file '../../build/camera_interface/camera_interface.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_interface/camera_interface.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_interface/camera_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/asu/ika_ws/build/camera_interface/build
+creating /home/asu/ika_ws/build/camera_interface/build/lib
+creating /home/asu/ika_ws/build/camera_interface/build/lib/camera_interface
+copying camera_interface/__init__.py -> /home/asu/ika_ws/build/camera_interface/build/lib/camera_interface
+copying camera_interface/usb_cameras_node.py -> /home/asu/ika_ws/build/camera_interface/build/lib/camera_interface
+copying camera_interface/camera_node.py -> /home/asu/ika_ws/build/camera_interface/build/lib/camera_interface
+running install
+running install_lib
+creating /home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages/camera_interface
+copying /home/asu/ika_ws/build/camera_interface/build/lib/camera_interface/__init__.py -> /home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages/camera_interface
+copying /home/asu/ika_ws/build/camera_interface/build/lib/camera_interface/usb_cameras_node.py -> /home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages/camera_interface
+copying /home/asu/ika_ws/build/camera_interface/build/lib/camera_interface/camera_node.py -> /home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages/camera_interface
+byte-compiling /home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages/camera_interface/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages/camera_interface/usb_cameras_node.py to usb_cameras_node.cpython-310.pyc
+byte-compiling /home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages/camera_interface/camera_node.py to camera_node.cpython-310.pyc
+running install_data
+creating /home/asu/ika_ws/install/camera_interface/share/ament_index
+creating /home/asu/ika_ws/install/camera_interface/share/ament_index/resource_index
+creating /home/asu/ika_ws/install/camera_interface/share/ament_index/resource_index/packages
+copying resource/camera_interface -> /home/asu/ika_ws/install/camera_interface/share/ament_index/resource_index/packages
+copying package.xml -> /home/asu/ika_ws/install/camera_interface/share/camera_interface
+running install_egg_info
+Copying ../../build/camera_interface/camera_interface.egg-info to /home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages/camera_interface-0.0.0-py3.10.egg-info
+running install_scripts
+Installing usb_cams script to /home/asu/ika_ws/install/camera_interface/lib/camera_interface
+Installing view script to /home/asu/ika_ws/install/camera_interface/lib/camera_interface
+writing list of installed files to '/home/asu/ika_ws/build/camera_interface/install.log'

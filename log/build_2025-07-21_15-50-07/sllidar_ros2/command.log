@@ -1,0 +1,4 @@
+Invoking command in '/home/asu/ika_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asu/ika_ws/install/camera_interface:/opt/ros/humble /usr/bin/cmake --build /home/asu/ika_ws/build/sllidar_ros2 -- -j12 -l12
+Invoked command in '/home/asu/ika_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asu/ika_ws/install/camera_interface:/opt/ros/humble /usr/bin/cmake --build /home/asu/ika_ws/build/sllidar_ros2 -- -j12 -l12
+Invoking command in '/home/asu/ika_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asu/ika_ws/install/camera_interface:/opt/ros/humble /usr/bin/cmake --install /home/asu/ika_ws/build/sllidar_ros2
+Invoked command in '/home/asu/ika_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asu/ika_ws/install/camera_interface:/opt/ros/humble /usr/bin/cmake --install /home/asu/ika_ws/build/sllidar_ros2

@@ -1,0 +1,4 @@
+[console_scripts]
+usb_cams = camera_interface.usb_cameras_node:main
+view = camera_interface.camera_node:main
+

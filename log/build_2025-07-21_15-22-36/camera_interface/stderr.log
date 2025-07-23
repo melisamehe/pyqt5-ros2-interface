@@ -1,0 +1,5 @@
+  File "/home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages/camera_interface/camera_node.py", line 140
+    px = int(center + x * (size / (max_range * 2))))
+                                                   ^
+SyntaxError: unmatched ')'
+

@@ -1,0 +1,432 @@
+[0.085s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.086s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73645f85e470>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73645f85de70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73645f85de70>>, mixin_verb=('build',))
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.225s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/asu/ika_ws'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_interface' with type 'ros.ament_python' and name 'camera_interface'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.266s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 360 installed packages in /opt/ros/humble
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'camera_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asu/ika_ws/build/camera_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asu/ika_ws/install/camera_interface', 'merge_install': False, 'path': '/home/asu/ika_ws/src/camera_interface', 'symlink_install': False, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asu/ika_ws/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asu/ika_ws/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/home/asu/ika_ws/src/realsense-ros/realsense2_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asu/ika_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asu/ika_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/asu/ika_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asu/ika_ws/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asu/ika_ws/install/realsense2_camera', 'merge_install': False, 'path': '/home/asu/ika_ws/src/realsense-ros/realsense2_camera', 'symlink_install': False, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asu/ika_ws/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asu/ika_ws/install/realsense2_description', 'merge_install': False, 'path': '/home/asu/ika_ws/src/realsense-ros/realsense2_description', 'symlink_install': False, 'test_result_base': None}
+[0.305s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.306s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.306s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asu/ika_ws/src/realsense-ros/realsense2_camera_msgs' with build type 'ament_cmake'
+[0.306s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asu/ika_ws/src/realsense-ros/realsense2_camera_msgs'
+[0.308s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.310s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/asu/ika_ws/src/camera_interface' with build type 'ament_python'
+[0.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_interface', 'ament_prefix_path')
+[0.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/camera_interface/share/camera_interface/hook/ament_prefix_path.ps1'
+[0.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asu/ika_ws/install/camera_interface/share/camera_interface/hook/ament_prefix_path.dsv'
+[0.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/camera_interface/share/camera_interface/hook/ament_prefix_path.sh'
+[0.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.314s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asu/ika_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[0.314s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asu/ika_ws/src/sllidar_ros2'
+[0.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asu/ika_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/asu/ika_ws/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/asu/ika_ws/install/realsense2_camera_msgs
+[0.537s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/asu/ika_ws/src/camera_interface'
+[0.537s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.537s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asu/ika_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/asu/ika_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/asu/ika_ws/install/sllidar_ros2
+[0.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asu/ika_ws/src/camera_interface': PYTHONPATH=/home/asu/ika_ws/build/camera_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_interface build --build-base /home/asu/ika_ws/build/camera_interface/build install --record /home/asu/ika_ws/build/camera_interface/install.log --single-version-externally-managed install_data
+[1.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asu/ika_ws/src/camera_interface' returned '0': PYTHONPATH=/home/asu/ika_ws/build/camera_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_interface build --build-base /home/asu/ika_ws/build/camera_interface/build install --record /home/asu/ika_ws/build/camera_interface/install.log --single-version-externally-managed install_data
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/camera_interface' for CMake module files
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/camera_interface' for CMake config files
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/camera_interface/lib'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/camera_interface/bin'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/camera_interface/lib/pkgconfig/camera_interface.pc'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/camera_interface/lib/python3.10/site-packages'
+[1.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_interface', 'pythonpath')
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/camera_interface/share/camera_interface/hook/pythonpath.ps1'
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asu/ika_ws/install/camera_interface/share/camera_interface/hook/pythonpath.dsv'
+[1.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/camera_interface/share/camera_interface/hook/pythonpath.sh'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/camera_interface/bin'
+[1.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_interface)
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/camera_interface/share/camera_interface/package.ps1'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asu/ika_ws/install/camera_interface/share/camera_interface/package.dsv'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/camera_interface/share/camera_interface/package.sh'
+[1.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/camera_interface/share/camera_interface/package.bash'
+[1.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/camera_interface/share/camera_interface/package.zsh'
+[1.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asu/ika_ws/install/camera_interface/share/colcon-core/packages/camera_interface)
+[1.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asu/ika_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/asu/ika_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/asu/ika_ws/install/sllidar_ros2
+[1.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asu/ika_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asu/ika_ws/build/sllidar_ros2 -- -j12 -l12
+[1.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asu/ika_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/asu/ika_ws/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/asu/ika_ws/install/realsense2_camera_msgs
+[1.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asu/ika_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asu/ika_ws/build/realsense2_camera_msgs -- -j12 -l12
+[5.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asu/ika_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asu/ika_ws/build/realsense2_camera_msgs -- -j12 -l12
+[5.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asu/ika_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/asu/ika_ws/build/realsense2_camera_msgs
+[5.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[5.784s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera_msgs' for CMake module files
+[5.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asu/ika_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/asu/ika_ws/build/realsense2_camera_msgs
+[5.785s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera_msgs' for CMake config files
+[5.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[5.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[5.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[5.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[5.787s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera_msgs/lib'
+[5.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[5.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[5.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[5.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[5.788s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera_msgs/bin'
+[5.788s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[5.788s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[5.788s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera_msgs/bin'
+[5.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[5.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[5.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[5.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[5.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[5.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asu/ika_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[5.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[5.791s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera_msgs' for CMake module files
+[5.791s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera_msgs' for CMake config files
+[5.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[5.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[5.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[5.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[5.793s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera_msgs/lib'
+[5.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[5.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[5.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[5.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[5.794s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera_msgs/bin'
+[5.794s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[5.794s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[5.794s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera_msgs/bin'
+[5.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[5.795s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[5.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[5.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[5.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[5.796s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asu/ika_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[5.797s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asu/ika_ws/src/realsense-ros/realsense2_camera' with build type 'ament_cmake'
+[5.797s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asu/ika_ws/src/realsense-ros/realsense2_camera'
+[5.797s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.797s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.799s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asu/ika_ws/src/realsense-ros/realsense2_description' with build type 'ament_cmake'
+[5.799s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asu/ika_ws/src/realsense-ros/realsense2_description'
+[5.800s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.800s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asu/ika_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asu/ika_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/asu/ika_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/asu/ika_ws/install/realsense2_camera
+[5.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asu/ika_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asu/ika_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/asu/ika_ws/src/realsense-ros/realsense2_description -DCMAKE_INSTALL_PREFIX=/home/asu/ika_ws/install/realsense2_description
+[6.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asu/ika_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asu/ika_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/asu/ika_ws/src/realsense-ros/realsense2_description -DCMAKE_INSTALL_PREFIX=/home/asu/ika_ws/install/realsense2_description
+[6.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asu/ika_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asu/ika_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asu/ika_ws/build/realsense2_description -- -j12 -l12
+[6.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asu/ika_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asu/ika_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asu/ika_ws/build/realsense2_description -- -j12 -l12
+[6.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asu/ika_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asu/ika_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asu/ika_ws/build/realsense2_description
+[6.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[6.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asu/ika_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asu/ika_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asu/ika_ws/build/realsense2_description
+[6.420s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_description' for CMake module files
+[6.421s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_description' for CMake config files
+[6.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[6.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[6.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asu/ika_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[6.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[6.423s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_description/bin'
+[6.423s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[6.423s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_description/lib/python3.10/site-packages'
+[6.424s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_description/bin'
+[6.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[6.424s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asu/ika_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[6.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[6.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[6.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[6.426s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asu/ika_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[6.427s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[6.427s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_description' for CMake module files
+[6.428s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_description' for CMake config files
+[6.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[6.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[6.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asu/ika_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[6.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[6.429s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_description/bin'
+[6.430s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[6.430s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_description/lib/python3.10/site-packages'
+[6.430s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_description/bin'
+[6.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[6.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asu/ika_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[6.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[6.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[6.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[6.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asu/ika_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[6.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asu/ika_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asu/ika_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/asu/ika_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/asu/ika_ws/install/realsense2_camera
+[6.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asu/ika_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asu/ika_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asu/ika_ws/build/realsense2_camera -- -j12 -l12
+[13.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asu/ika_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asu/ika_ws/build/sllidar_ros2 -- -j12 -l12
+[13.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asu/ika_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/asu/ika_ws/build/sllidar_ros2
+[13.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[13.986s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/sllidar_ros2' for CMake module files
+[13.987s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/sllidar_ros2' for CMake config files
+[13.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[13.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[13.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asu/ika_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[13.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[13.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asu/ika_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/asu/ika_ws/build/sllidar_ros2
+[13.996s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/sllidar_ros2/lib'
+[13.996s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/sllidar_ros2/bin'
+[13.996s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[13.997s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[13.997s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/sllidar_ros2/bin'
+[13.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[13.998s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asu/ika_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[13.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[14.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[14.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[14.005s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asu/ika_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[14.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[14.006s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/sllidar_ros2' for CMake module files
+[14.011s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/sllidar_ros2' for CMake config files
+[14.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[14.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[14.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asu/ika_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[14.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[14.018s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/sllidar_ros2/lib'
+[14.019s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/sllidar_ros2/bin'
+[14.019s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[14.019s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[14.019s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/sllidar_ros2/bin'
+[14.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[14.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asu/ika_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[14.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[14.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[14.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[14.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asu/ika_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[24.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asu/ika_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asu/ika_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asu/ika_ws/build/realsense2_camera -- -j12 -l12
+[24.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asu/ika_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asu/ika_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asu/ika_ws/build/realsense2_camera
+[24.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[24.461s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera' for CMake module files
+[24.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asu/ika_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/asu/ika_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asu/ika_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asu/ika_ws/build/realsense2_camera
+[24.462s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera' for CMake config files
+[24.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[24.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[24.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[24.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[24.464s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera/lib'
+[24.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[24.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[24.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[24.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[24.465s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera/bin'
+[24.465s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[24.465s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera/lib/python3.10/site-packages'
+[24.465s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera/bin'
+[24.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[24.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[24.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[24.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[24.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[24.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asu/ika_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[24.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[24.467s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera' for CMake module files
+[24.468s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera' for CMake config files
+[24.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[24.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[24.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[24.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[24.469s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera/lib'
+[24.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[24.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[24.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[24.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[24.470s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera/bin'
+[24.470s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[24.470s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera/lib/python3.10/site-packages'
+[24.470s] Level 1:colcon.colcon_core.environment:checking '/home/asu/ika_ws/install/realsense2_camera/bin'
+[24.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[24.471s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[24.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[24.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[24.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/asu/ika_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[24.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asu/ika_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[24.472s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.473s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.473s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[24.473s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[24.477s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[24.477s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[24.477s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[24.486s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[24.486s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asu/ika_ws/install/local_setup.ps1'
+[24.487s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asu/ika_ws/install/_local_setup_util_ps1.py'
+[24.489s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asu/ika_ws/install/setup.ps1'
+[24.491s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asu/ika_ws/install/local_setup.sh'
+[24.492s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asu/ika_ws/install/_local_setup_util_sh.py'
+[24.492s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asu/ika_ws/install/setup.sh'
+[24.493s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asu/ika_ws/install/local_setup.bash'
+[24.494s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asu/ika_ws/install/setup.bash'
+[24.495s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asu/ika_ws/install/local_setup.zsh'
+[24.495s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asu/ika_ws/install/setup.zsh'

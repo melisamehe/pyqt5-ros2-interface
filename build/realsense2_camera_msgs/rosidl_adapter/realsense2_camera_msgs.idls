@@ -1,0 +1,4 @@
+/home/asu/ika_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/IMUInfo.idl
+/home/asu/ika_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/Extrinsics.idl
+/home/asu/ika_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/Metadata.idl
+/home/asu/ika_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/DeviceInfo.idl
