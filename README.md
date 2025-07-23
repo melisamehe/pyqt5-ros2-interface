@@ -45,10 +45,24 @@ It is built upon **ROS 2 Humble** and supports real-time streaming of `sensor_ms
 - `OpenCV`
 - `numpy`
 
-You can install Python dependencies via:
+- You can install Python dependencies via:
 
-```bash
+
 pip install opencv-python PyQt5 numpy
+
+
+- ▶️ Run the Interface
+
+    Make sure your ROS 2 environment is sourced, and sensors are publishing.
+
+ros2 run <your_package_name> camera_node
+
+Or directly via Python:
+
+python3 camera_node.py
+
+    Replace <your_package_name> with the name used in your ROS 2 package.
+
 
 
 
